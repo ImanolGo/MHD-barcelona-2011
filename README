@@ -1,1 +1,35 @@
-test comment for another test commit
+
+ -- Creator --
+
+Imanol Gomez: imanolgo<at>gmail.com. 
+Date: 17/06/2011, Music Hackday, Barcelona 2011.
+
+-- About the hack --
+
+How cool is to play an instrument in the air? The idea of this hack is to play instruments just with your bare hands, using the movements of your body to create music.
+To be precise there are two people playing music . One person plays wooble bass, controlling with one hand the pitch and with the other, the LFO and Cutting frequency of the filter. The other person will be in charge of the rhythm, controlling the sample to trigger, how it is filtered and . Although it sounds technical and hard to play, it is really fun and the results can be awesome.
+Have fun playing some deep bass dub step!!!!!
+
+We must say, finally, that the hack it is our small tribute to the Theremin, the first electronic musical instrument controlled without any physical contact.
+
+-- Source code and links --
+
+Demos: http://vimeo.com/26327004
+Source Code: https://ImanolGo@github.com/ImanolGo/MHD-barcelona-2011.git
+
+-- Tools used --
+
+Kinect sensor - As the camera device.
+SimpleOpenNI - Processing Wrapper for the OpenNI/Kinect library by Max Rheiner. For the Skeleton tracking.  
+Processing - To read the data, map it into notes and give visual feedback.
+Max/MSP - To receive OSC messages from Processing and send MIDI protocol to Ableton Live.
+Ableton Live - For the sound synthesis.
+
+
+-- To Do --
+
+The mapping could be improved to use your whole body for music creation and improvisation. A very nice visual feedback could be also added to improve the user and public experience. Of course the sound synthesis is not only to mprove mapping, but try other ideas, sounds, synths...
+
+-- Acknowledgements --
+
+Andres Bucci, Jorge Garcia, Panos Papiotis... SMC crew.
